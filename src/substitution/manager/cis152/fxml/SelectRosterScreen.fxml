@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="substitution.manager.cis152.controllers.SelectRosterScreenController">
+    <stylesheets>
+        <URL value="@/substitution/manager/cis152/myStyle.css"/>
+    </stylesheets>
+    <VBox alignment="TOP_CENTER" spacing="10" fx:id="topFrame">
+        <Label text="Choose Your Roster" fx:id="header" />
+    </VBox>
+    <VBox fx:id="rosterContainer" alignment="BOTTOM_CENTER" maxHeight="80"  spacing="10">
+    </VBox>
+
+</StackPane>

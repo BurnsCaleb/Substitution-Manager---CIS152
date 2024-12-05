@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane id="StackPane" xmlns:fx="http://javafx.com/fxml/1" fx:controller="substitution.manager.cis152.controllers.GameScreenController">
+    <stylesheets>
+        <URL value="@/substitution/manager/cis152/myStyle.css"/>
+    </stylesheets>
+    <VBox fx:id="tableView" alignment="TOP_CENTER"  ></VBox>
+    <VBox fx:id="buttonView" alignment="BOTTOM_CENTER"  ></VBox>
+</StackPane>

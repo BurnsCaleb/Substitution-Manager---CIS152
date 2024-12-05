@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="substitution.manager.cis152.controllers.StartScreenController">
+    <stylesheets>
+        <URL value="@/substitution/manager/cis152/myStyle.css"/>
+    </stylesheets>
+    <VBox alignment="TOP_CENTER" spacing="10" fx:id="topFrame">
+    <Label text="Substitution Manager" fx:id="header" />
+    </VBox>
+    <VBox alignment="CENTER" spacing="10">
+        <Button text="Start Game" onAction="#startButton" fx:id="startButton" styleClass="button" />
+    </VBox>
+</StackPane>
